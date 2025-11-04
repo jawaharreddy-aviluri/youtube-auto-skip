@@ -3,7 +3,7 @@
 // ===== Tunables =====
 const POLL_WHEN_NO_AD_MS = 500;   // background polling when no ad is showing
 const POLL_WHEN_AD_MS = 100;      // faster when the player reports an ad
-const LOG = false;                // set true to debug
+const LOG = true;                // set true to debug
 
 const log = (...a) => LOG && console.log("[YT Auto Skip]", ...a);
 
